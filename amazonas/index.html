@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Amazonas</title>
+        <link rel="stylesheet" type="text/css" href="./style/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+<body>
+        <div id="header" style="height: 5%;">
+            <h1>The Amazonas Gold Rush<img style="width: 8%; float: right;" src="./images/jaguar.png"/></h1>
+        </div>
+       <div id="top">
+            <div id="mainLeft">
+            <canvas id="canvas" height="600" width="1200"></canvas>
+            </div>
+
+            <div id="mainRight">
+                <div class="box" >SCORES:<div id="score"></div></div>
+                <div  class="box">LEVEL:<div id="level"></div></div>
+                <div  class="box">N<sup>o</sup> of LIVES:<div id="lives"></div></div>
+
+                <div  class="box" id="text"></div>
+            </div>
+            <div id="mainMenu">
+            <ul>
+                <li><a class="active">Menu</a></li>
+                <li><a href="#button">Start new game</a></li>
+                <li><a href="#music">Audio</a></li>
+                <li><a href="canvas.html">Canvas</a></li>
+            </ul>
+            </div>
+        </div>
+
+        <div id="foot">
+            <div class="start" id="left">
+                <embed id="music" type="audio/mp3" width="290" height="100" src="./audio/jaw.mp3" autostart="true" loop="true">
+            </div>
+            <div class="start" id="return" > <a href="#top">Top</a>
+
+            </div>
+            <div class="start" id="button" button onclick="startNewGame()">
+                Start new game</button>
+            </div>
+        </div>
+
+        <div id="footer" >
+        <p><img style="width:8%; float: left;" src="./images/jaguar2.png"/>
+            Copyright (c) 2019<img style="width: 8%; float: right;" src="./images/jaguar2.png"/>
+        </p>
+        </div>
+        <script type="text/javascript" src ="./js/main.js">
+           
+        </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
